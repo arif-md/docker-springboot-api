@@ -1,6 +1,10 @@
 # Pre-Requisities
    - Make sure Docker Desktop is running
    - Make sure to set the following environment variables if you are going to deploy to AKS (Azure Kubernetes cluster)
+       - ARM_CLIENT_ID
+       - ARM_CLIENT_SECRET
+       - ARM_SUBSCRIPTION_ID
+       - ARM_TENANT_ID
    
 # Commands to build and run this container
    - docker build -t spring-boot-api .           => (build the image with tag name spring-boot-api)
